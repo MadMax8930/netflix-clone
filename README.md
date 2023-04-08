@@ -1,4 +1,4 @@
-## Netflix Clone with [`Next.js`] bootstrapped with [`create-next-app`]
+## Netflix Clone with [`Next.js`]
 
 - React TS -> Frontend Library
 - Next.js -> Server side rendering
@@ -28,11 +28,13 @@ pnpm dev
 Next.js documentation [https://nextjs.org/docs]
 Tailwind documentation [https://tailwindcss.com/docs/installation]
 
-We can start editing the page by modifying `pages/index.tsx`. The page auto-updates as WE edit the file.
+Create tsx files in the `pages` directory to make new pages.
+For example `pages/test.tsx`redirects to: (http://localhost:3000/test)
+Pages can be edited by modifying `pages/index.tsx` (http://localhost:3000)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The `pages/api` directory is mapped to `/api/*`. 
+Files in this directory are treated as API routes or endpoints 
+[https://nextjs.org/docs/api-routes/introduction]
 
 ## Project deployed on Vercel: 
 
