@@ -18,6 +18,7 @@
 - npm install next-auth
 - npm install bcrypt
 - npm install -D @types/bcrypt
+- npm install axios
 
 ### Run the development server:
 
