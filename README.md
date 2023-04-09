@@ -10,8 +10,14 @@
 
 ### Dependencies
 
-npx create-next-app --typescript ./ 
-- Y,Y,N,N,@
+npx create-next-app --typescript ./    (Y,Y,N,N,@)
+npm install -D prisma
+npx prisma init
+npm install @prisma/client
+npx prisma db push (connecting prisma with mongodb)
+npm install next-auth
+npm install bcrypt
+npm install -D @types/bcrypt
 
 ### Run the development server:
 
@@ -38,4 +44,4 @@ Files in this directory are treated as API routes or endpoints:
 
 ## Project deployed on Vercel: 
 
-[https://full-netflix-clone.netlify.app]
+[]
