@@ -21,6 +21,7 @@
 - npm install axios
 - npm install react-icons
 - npm install @next-auth/prisma-adapter
+- npm install swr
 
 ### Run the development server:
 
