@@ -19,6 +19,8 @@
 - npm install bcrypt
 - npm install -D @types/bcrypt
 - npm install axios
+- npm install react-icons
+- npm install @next-auth/prisma-adapter
 
 ### Run the development server:
 
