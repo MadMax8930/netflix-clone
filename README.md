@@ -38,7 +38,7 @@ Next.js documentation: [https://nextjs.org/docs].
 Tailwind documentation: [https://tailwindcss.com/docs/installation].
 
 Create tsx files in the `pages` directory to make new pages.
-For example `pages/test.tsx`redirects to (http://localhost:3000/test).
+For example `pages/auth.tsx`redirects to (http://localhost:3000/auth).
 Pages can be edited by modifying `pages/index.tsx` (http://localhost:3000).
 
 The `pages/api` directory is mapped to `/api/*`. 
