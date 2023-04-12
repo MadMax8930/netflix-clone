@@ -1,5 +1,5 @@
 import { NextPageContext } from "next";
-import { getSession, signOut } from "next-auth/react";
+import { getSession } from "next-auth/react";
 import Navbar from "@/components/Navbar";
 
 export async function getServerSideProps(context: NextPageContext) {
@@ -24,7 +24,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-       {/* <button className="h-10 w-20 text-white p-2 bg-red-600 rounded-md" onClick={() => signOut()}>Logout!</button> */}
     </>
   )
 }
