@@ -1,8 +1,9 @@
 import NavbarItem from "./NavbarItem";
 import MobileMenu from "./MobileMenu";
+import AccountMenu from "./AccountMenu";
 
 import { useCallback, useState } from "react";
-import { BsChevronDown } from "react-icons/bs";
+import { BsChevronDown, BsSearch, BsBell } from "react-icons/bs";
 
 const Navbar = () => {
    const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -31,7 +32,17 @@ const Navbar = () => {
              </div>
              <div className="flex flex-row ml-auto gap-7 items-center">
                <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
-                  Search
+                  <BsSearch />
+               </div>
+               <div className="text-gray-200 hover:text-gray-300 cursor-pointer transition">
+                  <BsBell />
+               </div>
+               <div className="flex flex-row items-center gap-2 cursor-pointer relative">
+                  <div className="w-6 h-6 lg:w-10 lg:h-10 rounded-md overflow-hidden">
+                     <img src="/images/default-blue.png" alt="Logo" />
+                  </div>
+                  <BsChevronDown className="text-white transition" />
+                  <AccountMenu visible />
                </div>
              </div>
          </div>
