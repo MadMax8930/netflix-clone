@@ -3,6 +3,7 @@ import { getSession } from "next-auth/react";
 
 import Navbar from "@/components/Navbar";
 import Billboard from "@/components/Billboard";
+import MovieList from "@/components/MoveList";
 
 // Protecting routes by fetching session on client side
 export async function getServerSideProps(context: NextPageContext) {
@@ -28,6 +29,9 @@ export default function Home() {
     <>
       <Navbar />
       <Billboard />
+      <div className="pb-40">
+         <MovieList />
+      </div>
     </>
   )
 }

@@ -22,6 +22,8 @@
 - npm install react-icons
 - npm install @next-auth/prisma-adapter
 - npm install swr
+- npm install lodash
+- npm install -D @types/lodash
 
 ### Run the development server:
 
