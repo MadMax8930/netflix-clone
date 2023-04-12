@@ -4,6 +4,7 @@ import { getSession } from "next-auth/react";
 import Navbar from "@/components/Navbar";
 import Billboard from "@/components/Billboard";
 import MovieList from "@/components/MoveList";
+import useMovieList from "@/hooks/useMovieList";
 
 // Protecting routes by fetching session on client side
 export async function getServerSideProps(context: NextPageContext) {
@@ -25,13 +26,15 @@ export async function getServerSideProps(context: NextPageContext) {
 
 
 export default function Home() {
-  return (
-    <>
-      <Navbar />
-      <Billboard />
-      <div className="pb-40">
-         <MovieList />
-      </div>
-    </>
-  )
+   const { data: movies = [] } = useMovieList();
+
+   return (
+     <>
+       <Navbar />
+       <Billboard />
+       <div className="pb-40">
+         <MovieList title="Trending Now" data={movies} />
+       </div>
+     </>
+   )
 }

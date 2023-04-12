@@ -8,7 +8,7 @@ const Billboard = () => {
    return (                    
       <div className="relative h-[56.25vw]"> {/* 16:9 aspect ratio */}
          <video 
-            className="w-full h-[56.vw] object-cover brightness-[60%]"
+            className="w-full h-[56.25vw] object-cover brightness-[60%]"
             autoPlay muted loop
             poster={movie?.thumbnailUrl} 
             src={movie?.videoUrl}>
