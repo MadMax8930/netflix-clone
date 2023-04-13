@@ -1,5 +1,7 @@
 ## Netflix Clone with [`Next.js`] with Google authentication
 
+Node version 16.13
+
 - React TS -> Frontend Library
 - Next.js -> Server side rendering
 - Tailwind -> Styling
