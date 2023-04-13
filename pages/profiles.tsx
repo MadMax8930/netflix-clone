@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import useCurrentUser from "@/hooks/useCurrentUser";
 
 // Protecting routes by fetching session on client side
-export async function getServerSideProps(context: NextPageContext) {
+export async function getStaticProps(context: NextPageContext) {
    const session = await getSession(context);
 
    if (!session) {

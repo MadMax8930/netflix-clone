@@ -10,7 +10,7 @@ import InfoModal from "@/components/InfoModal";
 import useInfoModal from "@/hooks/useInfoModal";
 
 // Protecting routes by fetching session on client side
-export async function getServerSideProps(context: NextPageContext) {
+export async function getStaticProps(context: NextPageContext) {
    const session = await getSession(context);
 
    if (!session) {
