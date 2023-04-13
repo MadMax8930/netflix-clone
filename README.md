@@ -44,6 +44,7 @@ Files in this directory are treated as API routes or endpoints:
 - npm install @next-auth/prisma-adapter
 - npm install swr
 - npm install lodash -D @types/lodash
+- npm install zustand
 
 ## Project deployed on Vercel: 
 
