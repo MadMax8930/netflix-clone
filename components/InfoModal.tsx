@@ -116,8 +116,8 @@ const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
                   </p>
                   <p className="text-white text-lg">
                      {data?.genre}
-                  </p>
-                  <p className="text-white text-lg">
+                  </p><br/>
+                  <p className="text-white text-md">
                      {data?.description}
                   </p>
                </div>
