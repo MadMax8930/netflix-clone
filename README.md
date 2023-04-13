@@ -48,4 +48,4 @@ Files in this directory are treated as API routes or endpoints:
 
 ## Project deployed on Vercel: 
 
-[]
+[https://nextnetflixclone.vercel.app/]
