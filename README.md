@@ -49,5 +49,6 @@ Files in this directory are treated as API routes or endpoints:
 - npm install zustand
 
 ## Project deployed on Vercel: 
+(may be marked as phishing by Google)
 
-[nextflix-replica.vercel.app/]
+[nextflix-replica.vercel.app]
