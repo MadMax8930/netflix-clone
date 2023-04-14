@@ -48,6 +48,6 @@ Files in this directory are treated as API routes or endpoints:
 - npm install lodash -D @types/lodash
 - npm install zustand
 
-## Project deployed on Vercel (Browse in Incognito): 
+## Project deployed on Vercel: 
 
-[https://nextflix-replica.vercel.app/]
+[nextflix-replica.vercel.app/]
